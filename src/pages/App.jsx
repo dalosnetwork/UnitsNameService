@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "../design/assets/logotype.svg";
 import shapeimg from "../design/assets/shape.svg";
 import searchimg from "../design/assets/icons/search.svg";
 import searchredimg from "../design/assets/icons/searchred.svg";
@@ -11,7 +10,10 @@ import { ethers } from "ethers";
 import { useNavigate } from "react-router-dom";
 
 function App() {
+
+
   const [name, setName] = useState("");
+  const [iuve, setiuve] = useState(null);
   const [isAvailable, setIsAvailable] = useState(true);
   const [isClaimNow, setIsClaimNow] = useState(false);
   const [readyToCheck, setReadyToCheck] = useState(true);
