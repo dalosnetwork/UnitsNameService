@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import logo from "../design/assets/Logotype.svg";
+import logo from "../design/assets/logotype.svg";
 import shapeimg from "../design/assets/shape.svg";
-import searchimg from "../design/assets/Icons/search.svg";
-import searchredimg from "../design/assets/Icons/searchred.svg";
-import checkimg from "../design/assets/Icons/check.svg";
-import ximg from "../design/assets/Icons/x.svg";
-import addressimg from "../design/assets/Icons/address.svg";
+import searchimg from "../design/assets/icons/search.svg";
+import searchredimg from "../design/assets/icons/searchred.svg";
+import checkimg from "../design/assets/icons/check.svg";
+import ximg from "../design/assets/icons/x.svg";
+import addressimg from "../design/assets/icons/address.svg";
 import Navbar from "../components/navbar";
 import { ethers } from "ethers";
 import { useNavigate } from "react-router-dom";

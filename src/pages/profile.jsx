@@ -1,12 +1,12 @@
 import { useState } from "react";
-import logo from "../design/assets/Logotype.svg";
-import shapeimg from "../design/assets/shape.svg";
-import searchimg from "../design/assets/Icons/search.svg";
-import checkimg from "../design/assets/Icons/check.svg";
-import addressimg from "../design/assets/Icons/address.svg";
-import profileimg from "../design/assets/Icons/profile.svg";
-import Navbar from "../components/navbar";
 import { ethers } from "ethers";
+import logo from "../design/assets/logotype.svg";
+import shapeimg from "../design/assets/shape.svg";
+import searchimg from "../design/assets/icons/search.svg";
+import checkimg from "../design/assets/icons/check.svg";
+import addressimg from "../design/assets/icons/address.svg";
+import profileimg from "../design/assets/icons/profile.svg";
+import Navbar from "../components/navbar";
 import { useSearchParams } from "react-router-dom";
 
 function Profile() {
